@@ -11,7 +11,8 @@ const { createApp } = Vue
   createApp({
     data() {
       return {
-        message: 'Hello Vue!'
+        message: 'Hello Vue!',
+        imgUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJEciTL5GTzhcHjLj8gjNvnKbBNM9m6TPXCw&s',
       }
     }
   }).mount('#app')
